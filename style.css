@@ -1,0 +1,42 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: "Roboto", sans-serif;
+}
+
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;}
+
+.counter-heading {
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.counter-value {
+  font-size: 75px;
+  font-weight: 900;
+}
+
+.button {
+  background-color: #f6f7f9;
+  border: 2px solid black;
+  border-radius: 7px;
+  margin: 8px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.button:hover {
+  background-color: #e2e8f0;
+}
+
+.button:active {
+  transform: scale(0.95);
+}
